@@ -1,3 +1,0 @@
-/home/xuan/Code/RealSense2Sample/depth/CMakeFiles/edit_cache.dir
-/home/xuan/Code/RealSense2Sample/depth/CMakeFiles/rebuild_cache.dir
-/home/xuan/Code/RealSense2Sample/depth/CMakeFiles/Depth.dir
