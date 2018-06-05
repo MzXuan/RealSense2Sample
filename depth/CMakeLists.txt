@@ -7,10 +7,10 @@ set( CMAKE_CXX_EXTENSIONS OFF )
 
 # Create Project
 project( Sample )
-add_executable( Color realsense.h realsense.cpp main.cpp )
+add_executable( Depth realsense.h realsense.cpp main.cpp )
 
 # Set StartUp Project
-set_property( DIRECTORY PROPERTY VS_STARTUP_PROJECT "Color" )
+set_property( DIRECTORY PROPERTY VS_STARTUP_PROJECT "Depth" )
 
 # Find Package
 # librealsense2
@@ -27,6 +27,6 @@ if( realsense2_FOUND AND OpenCV_FOUND )
   include_directories( ${OpenCV_INCLUDE_DIRS} )
 
   # Additional Dependencies
-  target_link_libraries( Color ${realsense2_LIBRARY} )
-  target_link_libraries( Color ${OpenCV_LIBS} )
+  target_link_libraries( Depth ${realsense2_LIBRARY} )
+  target_link_libraries( Depth ${OpenCV_LIBS} )
 endif()

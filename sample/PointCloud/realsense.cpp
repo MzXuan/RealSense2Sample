@@ -76,7 +76,8 @@ inline void RealSense::initializePointCloud()
     viewer.registerKeyboardCallback( &keyboardCallback, this );
 
     // Show Coordinate System
-    viewer.showWidget( "CoordinateSystem", cv::viz::WCameraPosition::WCameraPosition( 0.5 ) );
+    // viewer.showWidget( "CoordinateSystem", cv::viz::WCameraPosition::WCameraPosition( 0.5 ) );
+    viewer.showWidget( "CoordinateSystem", cv::viz::WCameraPosition( 0.5 ) );
 }
 
 // Keyboard Callback Function
