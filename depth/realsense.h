@@ -60,7 +60,9 @@ private:
     // Show Depth
     inline void showDepth();
 
-    inline void writeDepth(cv::Mat scale_mat);
+    void write();
+
+    inline void writeDepth();
 };
 
 #endif // __REALSENSE__

@@ -7,7 +7,7 @@ set( CMAKE_CXX_EXTENSIONS OFF )
 
 # Create Project
 project( Sample )
-add_executable( Depth realsense.h realsense.cpp main.cpp )
+add_executable( Depth realsense.h realsense.cpp main.cpp utils.hpp)
 
 # Set StartUp Project
 set_property( DIRECTORY PROPERTY VS_STARTUP_PROJECT "Depth" )
