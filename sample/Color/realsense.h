@@ -59,6 +59,10 @@ private:
 
     // Show Color
     inline void showColor();
+
+    void write();
+
+    inline void writeColor();
 };
 
 #endif // __REALSENSE__
